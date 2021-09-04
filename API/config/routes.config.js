@@ -1,7 +1,9 @@
 const express = require('express');
 const products = require('../controllers/products.controller');
-const product = require('../middlewares/product.mid')
-const users = require('../controllers/users.controller')
+const users = require('../controllers/users.controller');
+const product = require('../middlewares/product.mid');
+const secure = require('../middlewares/secure.mid');
+const upload = require('../config/multer.config')
 const router = express.Router();
 
 //Products
@@ -10,9 +12,16 @@ router.get('/products/:id',product.exists, products.detail);
 router.delete('/products/:id', product.exists ,products.delete)
 
 //User
-router.post('/users', users.create);
-router.get('/users', users.get)
-router.put('/users/:id', users.edit)
+router.post('/users', secure.isAuthenticated, users.create);
+router.get('/users', secure.isAuthenticated, users.get);
+router.delete('/users/:id', secure.isAuthenticated, users.delete);
+router.put('/users/:id', secure.isAuthenticated, secure.isUser, users.edit)
+
+router.post('/login', users.login);
+router.post('/logout', users.logout);
+
+router.get('/authenticate/google', users.loginWithGoogle);
+router.get('/authenticate/google/cb', users.doLoginWithGoogle);
 
 
 module.exports = router;

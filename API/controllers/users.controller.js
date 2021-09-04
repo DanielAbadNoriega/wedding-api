@@ -12,15 +12,12 @@ module.exports.create = (req, res, next) => {
 }
 
 module.exports.get = (req, res, next) => {
-    const { id } = req.params;
-    User.findById(id)
-        .then(user => {
-            if(!user) {
-                next(createError(404, 'User not found'))
-            } else {
-                res.json(user)
-            }
-        })
+    if (req.params.id === 'me') {
+        return res.json(req.user)
+    }
+    
+    User.findById(req.params.id)
+        .then(user => res.status(200).json(user))
         .catch(next)
 }
 
