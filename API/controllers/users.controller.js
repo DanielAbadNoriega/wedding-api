@@ -12,13 +12,7 @@ module.exports.create = (req, res, next) => {
 }
 
 module.exports.get = (req, res, next) => {
-    if (req.params.id === 'me') {
-        return res.json(req.user)
-    }
-    
-    User.findById(req.params.id)
-        .then(user => res.status(200).json(user))
-        .catch(next)
+    res.json(req.user);
 }
 
 module.exports.edit = (req, res, next) => {

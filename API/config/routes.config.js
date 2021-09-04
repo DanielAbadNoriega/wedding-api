@@ -8,12 +8,12 @@ const router = express.Router();
 
 //Products
 router.get('/products', products.list);
-router.get('/products/:id',product.exists, products.detail);
-router.delete('/products/:id', product.exists ,products.delete)
+router.get('/products/:id', product.exists, products.detail);
+
 
 //User
-router.post('/users', secure.isAuthenticated, users.create);
-router.get('/users', secure.isAuthenticated, users.get);
+router.post('/users', users.create);
+router.get('/profile', secure.isAuthenticated, users.get);
 router.delete('/users/:id', secure.isAuthenticated, users.delete);
 router.put('/users/:id', secure.isAuthenticated, secure.isUser, users.edit)
 
@@ -23,5 +23,12 @@ router.post('/logout', users.logout);
 router.get('/authenticate/google', users.loginWithGoogle);
 router.get('/authenticate/google/cb', users.doLoginWithGoogle);
 
+/*
+POST /products/:id/comments -> crear comentario a producto
+POST /products/:id/rate -> puntuar producto
+POST /products/:id/purchase
 
+GET /orders
+
+*/
 module.exports = router;
