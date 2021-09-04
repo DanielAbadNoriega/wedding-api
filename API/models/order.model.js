@@ -4,11 +4,7 @@ const Schema = mongoose.Schema;
 const orderSchema = new Schema ({
     user: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'user',
-        required: true
-    },
-    totalPrice: {
-        type: Number,
+        ref: 'User',
         required: true
     },
     products: {
@@ -18,6 +14,10 @@ const orderSchema = new Schema ({
                 ref: 'Product'
             }
         ]
+    },
+    totalPrice: {
+        type: Number,
+        required: true
     }
 }, {
     timestamps: true,
