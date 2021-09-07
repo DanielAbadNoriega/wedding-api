@@ -15,6 +15,7 @@ router.get('/products/:id', product.exists, products.detail);
 
 router.post('/products/:id/comments', comments.comment);
 router.post('/products/:id/rate', rates.rate);
+
 router.post('/order', orders.order);
 
 //User
