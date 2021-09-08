@@ -4,7 +4,7 @@
         "category": "photocall",
         "description": "Marco Polaroid en madera pintado a mano con la técnica Chalk-paint. Grabado de nombres y fecha del evento a medida. Ideal para fiestas y photocall",
         "price": 100,
-        "images": "[https://2brain.es/2511-large_default/marco-polaroid-chalk-paint.jpg, https://2brain.es/2512-large_default/marco-polaroid-chalk-paint.jpg ]",
+        "images": "https://2brain.es/2511-large_default/marco-polaroid-chalk-paint.jpg",
         "rating": "4,5",
         "comments": "Lorem Ipsum"
     },
@@ -13,7 +13,7 @@
         "category": "photocall",
         "description": "Marco Polaroid en madera pintado a mano con la técnica Chalk-paint. Grabado de nombres y fecha del evento a medida. Ideal para fiestas y photocall",
         "price": 100,
-        "images": "[https://2brain.es/2511-large_default/marco-polaroid-chalk-paint.jpg, https://2brain.es/2512-large_default/marco-polaroid-chalk-paint.jpg ]",
+        "images": "https://2brain.es/2512-large_default/marco-polaroid-chalk-paint.jpg",
         "rating": "4,5",
         "comments": "Lorem Ipsum"
     }
