@@ -10,7 +10,7 @@ const productSchema = new Schema({
     },
     category: {
         type: String,
-        enum: ['events', 'presents', 'photocall'],
+        enum: ['events', 'presents', 'photocall', 'perchas', 'nombres', 'bodys', 'invitaciones', 'llaveros', 'botes', 'sello', 'SeatingPlan', 'cartel'],
         required: true
     },
     description: {

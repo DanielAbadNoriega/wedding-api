@@ -9,12 +9,120 @@
         "comments": "Lorem Ipsum"
     },
     {
-        "title": "Figure Wood",
-        "category": "photocall",
-        "description": "Marco Polaroid en madera pintado a mano con la técnica Chalk-paint. Grabado de nombres y fecha del evento a medida. Ideal para fiestas y photocall",
-        "price": 100,
-        "images": "https://2brain.es/2512-large_default/marco-polaroid-chalk-paint.jpg",
+        "title": "Percha Natural Novio",
+        "category": "perchas",
+        "description": "Percha de madera grabada especialmente para el novio. ¿Qué mejor sitio para colgar su traje?",
+        "price": 5,
+        "images": "https://2brain.es/2854-large_default/percha-para-el-novio.jpg",
+        "rating": "5",
+        "comments": "¡Es preciosa! Le encantó al novio, que se lo regalamos como sorpresa, y fue un acierto"
+    },
+    {
+        "title": "Percha Natural Novia",
+        "category": "perchas",
+        "description": "Percha de madera grabada especialmente para la novia. ¿Qué mejor sitio para colgar su vestido?",
+        "price": 5,
+        "images": "https://2brain.es/2856-large_default/percha-para-la-novia.jpg",
+        "rating": "5",
+        "comments": "El vestido queda muchísimo más bonito con su propia percha. Ya tengo regalos para las próximas que se casen"
+    },
+    {
+        "title": "Nombres en madera",
+        "category": "nombres",
+        "description": "¿Quieres identificar unas mesas de invitado? ¿Buscas tener un detalle a medida? Estos nombres realizados en madera natural los fabricamos uno a uno para ti. Envíanos un archivo o escribe los nombres en la pestaña personalización.",
+        "price": 2,
+        "images": "https://2brain.es/2775-large_default/nombres-para-regalar.jpg",
         "rating": "4,5",
-        "comments": "Lorem Ipsum"
+        "comments": "Los nombres si son muy largos, quedan pequeñitos (nombres compuestos) pero les hace ilusión a todos recibirlos"
+    },
+    {
+        "title": "Body Natalicio",
+        "category": "bodys",
+        "description": "Body 100% de algodón, ideal para regalar por el nacimiento de un nuevo bebé. El chiguito corito nos indica los datos del nacimiento de este bebé.El estampado se realiza de manera manual, por lo que la prenda se convierte en única, pudiendo variar levemente con el diseño mostrado.",
+        "price": 12,
+        "images": "https://2brain.es/2331-large_default/body-nacimiento-corito.jpg",
+        "rating": "5",
+        "comments": "Enmarcado queda precioso. Un recuerdo para toda la vida"
+    },
+    {
+        "title": "Save the Date: pieza madera",
+        "category": "invitaciones",
+        "description": "Si estás pensando en dar la noticia de que os casáis, este save the date te sorprenderá.",
+        "price": 3.5,
+        "images": "https://2brain.es/1985-large_default/save-the-date-llavero-de-madera.jpg",
+        "rating": "5",
+        "comments": "La pieza de madera la han puesto todo el mundo en el frigorífico para que no se pierda. ¡Todo un acierto este Save the Date!"
+    },
+    {
+        "title": "Llavero metálico con madera grabada",
+        "category": "llaveros",
+        "description": "Cada llavero puede ser grabado con los iniciales de vuestros nombres y fecha de evento que nos indiques.",
+        "price": 7.5,
+        "images": "https://2brain.es/2644-large_default/llavero-metalico-madera-grabada.jpg",
+        "rating": "4",
+        "comments": "Es precioso. La madera se puede despegar, pero con se volvió a pegar fácilmente"
+    },
+    {
+        "title": "Bote bautizo",
+        "category": "botes",
+        "description": "Estas opciones de bote son perfectas para tener un detalle con los invitados el día del BAUTIZO. Podrás guardar chuches, gominolas, caramelos... o lo que se te ocurra en su interior. TODO personalizable.",
+        "price": 2.5,
+        "images": "https://2brain.es/2826-large_default/bote-bautizo-marta-vacio-.jpg",
+        "rating": "5",
+        "comments": "Son de plástico bueno. A todos les encantó. Nosotros metimos bombones para los adultos, y chuches para los pequeños, y así se lo podían llevar a casa y comerlo cuando ello quisieran."
+    },
+    {
+        "title": "Cartel de Bienvenida",
+        "category": "sello",
+        "description": "Sello de 4cm de diámetro con los nombres de la pareja y un sencillo diseño de unión a través de dos flechas.",
+        "price": 23,
+        "images": "https://2brain.es/1313-large_default/sello-pareja-flechas.jpg",
+        "rating": "5",
+        "comments": "Un sello bonito y sencillo."
+    },
+    {
+        "title": "Cartel de Bienvenida de Madera",
+        "category": "cartel",
+        "description": " ¿Quieres dejar un mensaje de bienvenida a tus invitados? Escribe tu propia frase y ¡te lo diseñamos a medida! Te proponemos este cartel en madera natural o madera lacada en blanco. Al estar grabado, queda un bonito halo creado al quemar la madera. ",
+        "price": 65,
+        "images": " https://2brain.es/2381-large_default/cartel-de-bienvenida-madera-.jpg",
+        "rating": "4",
+        "comments": "La gente quedó encantada. Un cartel original y que guardaremos con todo el cariño"
+    },
+    {
+        "title": "Seating Plan: Etiquetas de viaje",
+        "category": "SeatingPlan",
+        "description": "Este seating plan con un aire romántico, está pensado para los novios que quieren tener un seating plan a medida, pero sin gastarse una pasta. Por eso hemos pensado esta opción; un pack para que puedas montar tu propio seating plan.",
+        "price": 15,
+        "images": "https://2brain.es/1948-large_default/seating-plan-con-etiquetas-.jpg",
+        "rating": "5",
+        "comments": "Muy versátil para poner en multitud de sitios, y sorprender a todos con ellos. Nosotros los colocamos en el cuello de botellas de vino, y ¡quedo espectacular!"
+    },
+    {
+        "title": "Seating plan: Identificador regalos",
+        "category": "SeatingPlan",
+        "description": "¿Quieres hacer regalos a tus invitados? ¿Estás pensando en sorprender? Hemos creado estos pinchos en madera a modo de identificadores de mesas. Además de que el invitado sabrá donde debe sentarse el día de tu boda, se llevará el regalo que tu hayas preparado de una bonita forma. Si quieres ver un seating plan original: te animamos a que veas este link. Se trata de un seating plan en el que cada invitado; antes de entrar en el restaurante, coge un cactus graso identificados con estos pinchos.",
+        "price": 0.70,
+        "images": "https://2brain.es/1884-large_default/identificadores-para-tus-regalos.jpg",
+        "rating": "4",
+        "comments": "Son pequeñitos pero muy chulos. Si fallase algún invitado no tienes que cambiar TOOODO el seating, simplemente quitas su pincho y listo."
+    },
+    {
+        "title": "Seating plan: mesero de lámpara",
+        "category": "SeatingPlan",
+        "description": "Estas lámparas son un elemento decorativo ideal para cualquier fiesta, sirviendo después para decorar como luz ambiental. Un recuerdo inolvidable. Las hemos creado con motivos del románico 'capiteles', 'Puerta de los novios', 'frisos',... una serie de 10 modelos diferentes a elegir. Podemos añadir el número de vuestras mesas, o el nombre que nos pidas... Tú decides.",
+        "price": 37,
+        "images": "https://2brain.es/2258-large_default/lampara-mesa-serie-romanico.jpg",
+        "rating": "5",
+        "comments": "Vistieron las mesas de mi boda y quedó espectacular. Las tenemos guardadas con cariño, e incluso alguna la regalamos a algún familiar y amigo como recuerdo"
+    },
+    {
+        "title": "Cactus de madera: dos brazos",
+        "category": "presents",
+        "description": "Este Cactus de madera, lo hemos diseñado pensando en decorar tu casa. La planta perfecta para los que no saben cuidarlas. Puedes poner una palabra o frase en el campo personalización, y te lo ponemos a medida. Este cactus se entrega en forma de puzle. Vienen todas las piezas e instrucciones para montarlo en casa. Si tu idea es pintarlo, quizás este sea el momento, justo antes de montarlo.",
+        "price": 10.5,
+        "images": "https://2brain.es/2209-large_default/cactus-madera-dos-brazos-.jpg",
+        "rating": "5",
+        "comments": "¡Por fin una planta que no se me muere!"
     }
 ]
