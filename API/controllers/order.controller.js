@@ -10,3 +10,9 @@ module.exports.order = (req, res, next) => {
         .then(order => res.status(201).json(order))
         .catch(next)
 }
+
+module.exports.list = (req, res, next) => {
+    Order.find()
+        .then(orders => res.json(orders))
+        .catch(error => next(error))
+}

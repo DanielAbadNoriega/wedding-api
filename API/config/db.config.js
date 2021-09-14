@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/iron-wedding';
 
-mongoose.connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
     .then(() => console.info(`Successfully connected to the database ${MONGODB_URI}`))
     .catch(error => {
     console.error('An error occurred trying to connect to the database', error);
